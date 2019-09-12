@@ -1,0 +1,26 @@
+{
+  "name": "youtube-data-sdk",
+  "version": "0.1.0",
+  "description": "A library to connect YouTube Api, slightly",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grafikri/YouTubeDataSDK.git"
+  },
+  "author": "Serhan Coşkun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grafikri/YouTubeDataSDK/issues"
+  },
+  "homepage": "https://github.com/grafikri/YouTubeDataSDK#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.3"
+  }
+}
