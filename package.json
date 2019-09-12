@@ -2,8 +2,10 @@
   "name": "youtube-data-sdk",
   "version": "0.1.0",
   "description": "A library to connect YouTube Api, slightly",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
