@@ -17,7 +17,7 @@ class YouTube implements Template {
   }
 
   playlist: Playlist = {
-    list: async params => {
+    list: params => {
       return axios.get(this.url + "playlists", {
         params: { ...params, key: this.token }
       })
