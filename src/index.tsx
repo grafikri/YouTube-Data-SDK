@@ -12,21 +12,17 @@ interface Template {
 class YouTube implements Template {
   url: string = "https://www.googleapis.com/youtube/v3/"
   token: string
-
   constructor(token: string) {
     this.token = token
-    this.playlist.list = this.playlist.list.bind(this)
   }
 
   playlist: Playlist = {
-    list(params) {
+    list: async params => {
       return axios.get(this.url + "playlists", {
         params: { ...params, key: this.token }
       })
     },
-    insert() {
-      return "name"
-    }
+    insert: () => {}
   }
 }
 
