@@ -3,7 +3,7 @@
     "sourceMap": true,
     "module": "commonjs",
     "declaration": true,
-    "outDir": "./lib",
+    "outDir": "./dist",
     "strict": true,
     "target": "es6",
     "noImplicitAny": true
