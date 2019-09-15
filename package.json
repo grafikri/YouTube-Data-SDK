@@ -1,13 +1,13 @@
 {
   "name": "youtube-data-sdk",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A library to connect YouTube Api, slightly",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "prepare": "npm run build",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,14 @@
   },
   "homepage": "https://github.com/grafikri/YouTubeDataSDK#readme",
   "dependencies": {
-    "axios": "^0.19.0"
+    "@types/node": "^12.7.5",
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
     "typescript": "^3.6.3"
   }
 }
