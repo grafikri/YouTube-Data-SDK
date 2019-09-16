@@ -3,7 +3,7 @@
   "version": "0.7.0",
   "description": "A library to connect YouTube Api, slightly",
   "main": "dist/index.js",
-  "types": "types/index.d.ts",
+  "types": "typesFolder/index.d.ts",
   "scripts": {
     "prepare": "npm run build",
     "release": "np",
