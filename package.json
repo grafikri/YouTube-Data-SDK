@@ -11,7 +11,7 @@
     "test": "jest"
   },
   "files": [
-    "src",
+    "dist",
     "types"
   ],
   "repository": {
