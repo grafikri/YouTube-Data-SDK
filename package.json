@@ -1,6 +1,6 @@
 {
   "name": "youtube-data-sdk",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "A library to connect YouTube Api, slightly",
   "main": "dist/index.js",
   "types": "typesFolder/index.d.ts",
