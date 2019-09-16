@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "sourceMap": true,
+    "sourceMap": false,
     "module": "commonjs",
     "moduleResolution": "node",
     "declaration": true,
+    "declarationDir": "./types",
     "outDir": "./dist",
     "strict": true,
     "target": "es6",
