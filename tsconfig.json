@@ -4,7 +4,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "declaration": true,
-    "declarationDir": "./types",
+    "declarationDir": "./typesFolder",
     "outDir": "./dist",
     "strict": true,
     "target": "es6",
