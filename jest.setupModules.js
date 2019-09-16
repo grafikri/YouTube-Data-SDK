@@ -1,2 +1,2 @@
-global.YouTube = require("./dist/bundle").default
+global.YouTube = require("./dist/bundle")
 require("dotenv").config()
