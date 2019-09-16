@@ -2,11 +2,11 @@
   "name": "youtube-data-sdk",
   "version": "0.4.0",
   "description": "A library to connect YouTube Api, slightly",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/youTubeData.js",
+  "types": "dist/youTubeData.d.ts",
   "scripts": {
     "prepare": "npm run build",
-    "build": "tsc",
+    "build": "webpack",
     "test": "jest"
   },
   "repository": {
@@ -31,6 +31,7 @@
     "ts-jest": "^24.1.0",
     "ts-loader": "^6.1.0",
     "typescript": "^3.6.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.8"
   }
