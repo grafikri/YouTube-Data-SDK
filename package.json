@@ -3,13 +3,17 @@
   "version": "0.5.0",
   "description": "A library to connect YouTube Api, slightly",
   "main": "dist/index.js",
-  "types": "typesFolder/index.d.ts",
+  "types": "types/index.d.ts",
   "scripts": {
     "prepare": "npm run build",
     "release": "np",
     "build": "tsc",
     "test": "jest"
   },
+  "files": [
+    "src",
+    "types"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/grafikri/YouTubeDataSDK.git"
