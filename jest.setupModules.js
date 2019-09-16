@@ -1,2 +1,2 @@
-global.YouTube = require("./dist/youTubeData")
+global.YouTube = require("./dist")
 require("dotenv").config()
