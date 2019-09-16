@@ -520,5 +520,6 @@ MigrationBackup/
 
 lib/
 dist/
+types/
 template.js
 .env

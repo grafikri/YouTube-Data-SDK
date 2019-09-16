@@ -3,9 +3,10 @@
   "version": "0.6.0",
   "description": "A library to connect YouTube Api, slightly",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "types/index.d.ts",
   "scripts": {
     "prepare": "npm run build",
+    "release": "np",
     "build": "tsc",
     "test": "jest"
   },
